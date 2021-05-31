@@ -1,0 +1,78 @@
+/*selectores */
+
+/* selector universal*/ 
+*{ 
+    color:blue;
+}
+
+/*selector etiqueta*/
+p{ color: green;}
+
+
+
+/*selector clase se inicia con punto */
+.ejemplo{
+    color: hotpink;
+}
+
+
+
+/*selecotr id se inicia con numeral */
+#ejemploid{ 
+    color: lavenderblush;}
+
+    /*Selector id*/
+/*numeral si es un identificador único o id*/
+#ejemploId{
+    color: indigo;
+   }
+
+
+/*selector de grupo o combinacion de selectores */
+p.ejemplo, #ejemploid{font-size: 50px;}
+
+
+/*psudo clase como selecotor*/
+.text{color: lightcoral;}
+
+.text.hover{background-color: lightpink;
+color: lightslategray;}
+
+/*body{background-color: lightsteelblue;}*/
+
+body{background-image: url("/imagenes/fondo\ .jpg");
+background-repeat: repeat-x
+}
+
+
+/*border*/
+
+#e1{border: 5px dotted black ;}
+
+
+#e2{border: 5px dashed black ;}
+
+#e3{border: 5px solid black ;}
+
+#e4{border: 5px double black ;}
+ 
+
+
+
+
+
+
+/*consultar:
+otras pseudoclases de longitud absolutas y relativas 
+cm- sentimetros 
+px- pixeles 
+pc-picas
+in-pulgadas
+
+
+otros psdoclases visited link active
+em- 16px
+
+
+*/ 
+
